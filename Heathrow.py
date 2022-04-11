@@ -9,4 +9,3 @@ print('average: {:.2f}'.format(sum(temperatures) / len(temperatures)))
 print('median: ', temperatures[len(temperatures) // 2])
 print('count: ', len(temperatures))
 print('unic: ', len(set(temperatures)))
-
