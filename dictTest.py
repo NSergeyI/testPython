@@ -25,10 +25,6 @@
 # print(maxV, max_words)
 # print(minV, min_words)
 
-# moby_words = []
-# for word in infile:
-#     if word.strip():
-#         moby_words.append(word.strip())
 moby_words = []
 with open('moby_01_clean.txt') as infile:
     for word in infile:
